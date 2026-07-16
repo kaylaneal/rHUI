@@ -10,8 +10,8 @@ rHUI is a commands line program that runs analyses traditionally done in Histomi
 
 1. Clone Repository
 ```
-git clone https://github.com/kaylaneal/
-cd 
+git clone https://github.com/kaylaneal/rHUI
+cd rHUI
 ```
 
 2. Run
