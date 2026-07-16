@@ -1,0 +1,24 @@
+{
+    "global": {
+        "dsa_server_url": "https://pearcelab.pitt.edu/dsa/api/v1",
+        "dsa_api_key": "",
+        "root_folder_id": "",
+        "item_id": "6a3159981f52af828dfb67f6",
+        "batch": false
+    },
+
+    "NFT-detection": {
+        "mask_mag": 2,
+        "mask_det": 300,
+        "iou_thr": 0.4,
+        "conf_thr": 0.2,
+        "contained_thr": 0.6,
+        "mask_thr": 0.2,
+        "mag": 20,
+        "docname": "aNFTs",
+        "tissueAnnotationFile_folder": "6a31583f1f52af828dfb67f4",
+        "tissueAnnotationFile": "atesting_hui_girder.anot",
+        "device": "cuda",
+        "region": "ROI_annotation.json"
+    }
+}
