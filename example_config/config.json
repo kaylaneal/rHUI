@@ -1,7 +1,7 @@
 {
     "global": {
         "dsa_server_url": "https://pearcelab.pitt.edu/dsa/api/v1",
-        "dsa_api_key": "",
+        "dsa_api_key": "YOUR_KEY_HERE",
         "root_folder_id": "6a31583f1f52af828dfb67f4",
         "item_id": "6a3159981f52af828dfb67f6",
         "batch": false

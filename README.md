@@ -30,6 +30,7 @@ Running requires a configuration file. Examples can be found [here](/example_con
     - dsa_api_key
     - root_folder_id
         - id of the folder containing the image files
+        - *empty string for single run with batch set to false*
     - item_id
         - item name or the id of the .svs file
         - *notably this is NOT the id of the DSA item, but the item file*
@@ -39,4 +40,15 @@ Running requires a configuration file. Examples can be found [here](/example_con
     - varies based on analysis, parameters can be found on HistomicsUI 
 
 **Available Analyses:**
-- NFT-detection
+- NFT-detection via [jvizcar/neurotk docker image](https://hub.docker.com/r/jvizcar/neurotk)
+
+
+## Troubleshooting
+
+- Where is my API key?
+    - API keys are listed under the user account menu
+    - Existing API keys can be copied by clicking on 'show' and then selecting the key from the dialog pop up.
+    - A new API key can be created by clicking on 'Create new key' and following the prompts. 
+        - Upload and Read access is required.
+    ![Screenshot showing where to find API key on the DSA](/etc/find_api_key.png)
+
